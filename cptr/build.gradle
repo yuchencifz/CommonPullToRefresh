@@ -109,7 +109,7 @@ javadoc {
         author true
         version true
         links "http://docs.oracle.com/javase/7/docs/api"
-        title PROJ_ARTIFACTID
+//        title PROJ_ARTIFACTID
     }
 }
 
@@ -125,7 +125,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
-        name = PROJ_ARTIFACTID  //发布到Bintray上的项目名字
+//        name = PROJ_ARTIFACTID  //发布到Bintray上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

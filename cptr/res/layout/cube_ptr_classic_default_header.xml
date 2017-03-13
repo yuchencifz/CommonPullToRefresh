@@ -9,7 +9,7 @@
 
         <LinearLayout
             android:id="@+id/ptr_classic_header_rotate_view_header_text"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center"
